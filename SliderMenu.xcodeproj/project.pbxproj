@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		93B10A702005CDD800C664AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B10A6F2005CDD800C664AA /* AppDelegate.swift */; };
-		93B10A722005CDD800C664AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B10A712005CDD800C664AA /* ViewController.swift */; };
+		93B10A722005CDD800C664AA /* SideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B10A712005CDD800C664AA /* SideController.swift */; };
 		93B10A752005CDD800C664AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B10A732005CDD800C664AA /* Main.storyboard */; };
 		93B10A772005CDD800C664AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B10A762005CDD800C664AA /* Assets.xcassets */; };
 		93B10A7A2005CDD800C664AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B10A782005CDD800C664AA /* LaunchScreen.storyboard */; };
+		93B10A822005CFC300C664AA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B10A812005CFC300C664AA /* MainVC.swift */; };
+		93B10A842005D03700C664AA /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B10A832005D03700C664AA /* ContainerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93B10A6C2005CDD800C664AA /* SliderMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B10A6F2005CDD800C664AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93B10A712005CDD800C664AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93B10A712005CDD800C664AA /* SideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideController.swift; sourceTree = "<group>"; };
 		93B10A742005CDD800C664AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93B10A762005CDD800C664AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93B10A792005CDD800C664AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B10A7B2005CDD800C664AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B10A812005CFC300C664AA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		93B10A832005D03700C664AA /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				93B10A6F2005CDD800C664AA /* AppDelegate.swift */,
-				93B10A712005CDD800C664AA /* ViewController.swift */,
+				93B10A712005CDD800C664AA /* SideController.swift */,
 				93B10A732005CDD800C664AA /* Main.storyboard */,
+				93B10A832005D03700C664AA /* ContainerVC.swift */,
+				93B10A812005CFC300C664AA /* MainVC.swift */,
 				93B10A762005CDD800C664AA /* Assets.xcassets */,
 				93B10A782005CDD800C664AA /* LaunchScreen.storyboard */,
 				93B10A7B2005CDD800C664AA /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B10A722005CDD800C664AA /* ViewController.swift in Sources */,
+				93B10A842005D03700C664AA /* ContainerVC.swift in Sources */,
+				93B10A722005CDD800C664AA /* SideController.swift in Sources */,
+				93B10A822005CFC300C664AA /* MainVC.swift in Sources */,
 				93B10A702005CDD800C664AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7TWJET8M7;
 				INFOPLIST_FILE = SliderMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jorge.a.mtz.r.SliderMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7TWJET8M7;
 				INFOPLIST_FILE = SliderMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jorge.a.mtz.r.SliderMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
